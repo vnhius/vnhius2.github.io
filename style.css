@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Roboto", sans-serif;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    width: 980px;
+    height: 100px;
+    background-color: orange;
+}
+header img{
+    margin-left: 30px;/*đẩy khối sang*/
+    width: 100px;
+    height: 100px;
+    
+}
+nav{
+    height: 35px;
+    background-color: brown;
+}
+nav .menu ul{
+    list-style: none;/*xoá chấm tròn*/
+}
+nav .menu ul li{
+    float:left;
+    line-height: 35px;/*căn chữ ra giữa*/
+    padding: 0 15px;
+}
+nav .menu ul li a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;/*bỏ gạch chân*/
+}
+nav .search {
+    line-height: 35px;
+    float: right;
+    margin-right: 25px;
+}
+article h3{
+    text-align: center;
+    padding: 15px 0;
+    color: brown;
+    font-size: 20px;
+    text-transform: uppercase;/*viết hoa*/
+    font-weight: bold;/*chữ đậm*/
+}
+
+article .list .newsitem {
+    width: 28%;
+    padding: 11px;
+    float: left;
+    border: 2px solid orange;
+    margin-right: 4%;
+}
+article .list .newsitem h4{
+    font-size: 16px;
+    color: brown;
+}
+article .list .newsitem img{
+    width: 270px;
+    height: 150px;
+    margin: 10px auto;
+}
+footer{
+    height: 40px;
+    background-color: brown;
+    line-height: 40px;
+    text-align: center;
+    color:black;
+    font-size: 12px;
+    font-weight: bold;
+}
+#fix{
+    margin-right: 0;
+}
